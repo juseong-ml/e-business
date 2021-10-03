@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My favorite</title>
+    
+    <style>
+        /* 우리가 이 안에 넣은 Style Sheets 정보를 컴퓨터가 읽어서 HTML에 적용 */
+        
+        
+        /* Header */
+        h1{
+            text-align: center;
+            font-size:50px;
+        }
+        h1>a{color:darkblue;
+            text-decoration: none;
+        }
+        /* Nav */
+        li>a{
+            color:darkolivegreen;
+            text-decoration: none;
+            }
+        li{
+            font-size:20px; color:darkblue;
+        }
+        .ping_list{color: pink;}
+        #id {color:green;}
+        /* Main */
+        h2{
+            font-size:30px;
+            color: hsl(hue, saturation, lightness);
+            text-align: center;
+        }
+
+        div{
+        }
+        .home{
+            display:grid;
+            grid-template-columns: 200px 4fr;
+            border-top: 1px solid darkslateblue;
+        }
+        .room1{
+            border-right: 1px solid darkslateblue;
+        }
+        .room2{
+            padding-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <h1><a href = 'index.html'>내가 좋아하는 것들</a></h1>
+
+    <!-- Nav -->
+
+    <!-- Main -->
+    <div class='home'>
+        <div class='room1'>    
+        <ul>
+            <li><a href = 'insta.html'>인스타그램</a></li>
+            <li><a href = 'iphone.html' class='pink_list'>아이폰</a></li>
+            <li><a href = 'execise.html' id='execise'>운동</a></li>
+        </ul>
+    </div>
+        <div class='room2'>
+            <h2>About My favorite</h2>
+        <img src="./img/profile.jpg" alt="profile" width="500" style="display: block; margin: 0 auto">
+        <!-- 아무런 의미가 없는 블럭 태그인 div 태그 -->
+        <!-- 아무런 의미가 없는 인라인 태그인 span 태그 -->
+    
+    
+    
+        <p class='first'>안녕하세요 진주성입니다.</p>
+        <p class='second'>e-business 수업으로 제가 요즘 관심을 가지고 좋아하는 것들을 
+            소개해보려고 합니다.</p>
+        </div>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My favorite</title>
+    
+    <style>
+        /* 우리가 이 안에 넣은 Style Sheets 정보를 컴퓨터가 읽어서 HTML에 적용 */
+        
+        
+        /* Header */
+        h1{
+            text-align: center;
+            font-size:50px;
+        }
+        h1>a{color:darkblue;
+            text-decoration: none;
+        }
+        /* Nav */
+        li>a{
+            color:darkolivegreen;
+            text-decoration: none;
+            }
+        li{
+            font-size:20px; color:darkblue;
+        }
+        .ping_list{color: pink;}
+        #id {color:green;}
+        /* Main */
+        h2{
+            font-size:30px;
+            color: hsl(hue, saturation, lightness);
+            text-align: center;
+        }
+
+        div{
+        }
+        .home{
+            display:grid;
+            grid-template-columns: 200px 4fr;
+            border-top: 1px solid darkslateblue;
+        }
+        .room1{
+            border-right: 1px solid darkslateblue;
+        }
+        .room2{
+            padding-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <h1><a href = 'index.html'>내가 좋아하는 것들</a></h1>
+
+    <!-- Nav -->
+
+    <!-- Main -->
+    <div class='home'>
+        <div class='room1'>    
+        <ul>
+            <li><a href = 'insta.html'>인스타그램</a></li>
+            <li><a href = 'iphone.html' class='pink_list'>아이폰</a></li>
+            <li><a href = 'execise.html' id='execise'>운동</a></li>
+        </ul>
+    </div>
+        <div class='room2'>
+            <h2>Instagram</h2>
+        <img src="img/iphone13.png" alt="insta" width="600" style="display: block; margin: 0 auto">
+        <!-- 아무런 의미가 없는 블럭 태그인 div 태그 -->
+        <!-- 아무런 의미가 없는 인라인 태그인 span 태그 -->
+    
+    
+    
+        <p class='first'>요즘에 인스타를 아주 재밌게 하고 있습니다. 인스타로 재밌는것도 많이 보고 사람들이랑 교류하는것도 재밌습니다.</p>
+        <p class='second'>제가 사진찍는것도 좋아해서 잘 찍은 사진도 종종 올리고 있습니다. 팔로워 천명이 목표였는데 아직 멀었습니다 허허</p>
+        </div>
+    </div>
+
+    
+</body>
+</html>
