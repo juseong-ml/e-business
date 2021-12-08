@@ -1,0 +1,17 @@
+/* 폰트 임포트 */
+@import url('https://fonts/googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import "reset.css";
+@import "variables.css";
+/* @import "css/variables.css"; */
+
+/* components */
+@import "components/status-bar.css";
+
+
+/*Screens*/
+@import "screens/login.css";
+
+body{ 
+    /* background-color: antiquewhite;  */
+    font-family: 'Open Sans', sans-serif;
+}
