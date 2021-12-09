@@ -46,3 +46,11 @@
   color:rgba(0,0,0,0.3);
   
 }
+/*chat.html용*/
+.user-component__subtitle{
+    margin-top:5px;
+}
+.user-component__time{
+    margin-bottom: 10px;
+    display: block;
+}

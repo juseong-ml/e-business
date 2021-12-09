@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Find - Kakao clone</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/0ef9198833.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<!-- status-bar -->
+	<div class="status-bar">
+		<div class="status-bar__column">
+			<span>No Searvice</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+
+      <div class="status-bar__column">
+        <span>19:08</span>
+
+      </div>
+      <div class="status-bar__column">
+        <span>75%</span>
+        <i class="fas fa-battery-three-quarters"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!-- screen-header -->
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span>
+            <i class="fas fa-cog fa-lg"></i>
+            <i class='updated'>.</i>
+        </span>
+      </div>
+
+    </header>
+
+
+
+    <!-- Friend's Names Display -->
+    <!-- <a href="#" id="friends-display-link">
+      <i class="fas fa-info-circle"></i>
+      Friends' Names Display
+      <i class="fas fa-chevron-right"></i>
+    </a> -->
+
+    
+    <!-- Main -->
+    <main class="main-screen"> 
+        <!-- icon row -->
+        <div class="icon-row">
+            <div class="icon-row __icon">
+                <i class="fas fa-qrcode fa-4x"></i>
+                <span>QR code</span>
+            </div>
+            <div class="icon-row __icon">
+                <i class="far fa-address-book fa-4x"></i>
+                <span>Add by Contracts</span>
+            </div>
+            <div class="icon-row __icon">
+                <i class="fas fa-fingerprint fa-4x"></i>
+                <span>Add by ID</span>
+            </div>
+            <div class="icon-row __icon">
+                <i class = "far fa-envelope fa-4x"></i>
+                <span>Invite</span>
+            </div>
+        </div>
+        <!-- recommended friends -->
+            <div class="recommended-friends">
+                <h6 class="recommended-friends__title">Recommended Friends</h6>
+                <div class="recommended-friends__text">You have no recommended friends</div>
+            </div>
+        <!-- open chat -->
+     
+
+
+
+    </main>
+
+    <!-- Navigations -->
+    <nav class="nav">
+        <ul class="nav__list">
+  
+  
+          <li class="nav__btn">
+            <a href="friends.html" class="nav__link"><i class="fas fa-user fa-2x"></i></a>
+          </li>
+  
+  
+          <li class="nav__btn">
+            <a href="chat.html" class="nav__link">
+              <span class="nav__notification badge"> 1</span>
+              <i class="far fa-comment fa-2x"></i></a>
+          </li>
+  
+  
+          <li class="nav__btn">
+            <a href="find.html" class="nav__link"><i class="fas fa-search fa-2x"></i></a>
+          </li>
+  
+  
+          <li class="nav__btn">
+            <a href="more.html" class="nav__link">
+              <span class="nav__updated">.</span>
+              <i class="fas fa-ellipsis-h fa-2x"></i></a>
+          </li>
+        </ul>
+  
+      </nav>
+
+
+
+    <script src="script.js" crossorigin="anonymous"></script>
+  </body>
+</html>
