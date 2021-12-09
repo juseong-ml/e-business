@@ -6,10 +6,15 @@
 
 /* components */
 @import "components/status-bar.css";
-
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/nav-bar.css";
+@import "components/badge.css";
 
 /*Screens*/
 @import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/screen-boader.css";
 
 body{ 
     /* background-color: antiquewhite;  */
