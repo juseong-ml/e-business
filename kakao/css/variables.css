@@ -2,6 +2,7 @@
 
   /* 색상에 관련된 변수들 */
   --yellow: #FEE104;
+  --gray: rgba(0,0,0,0.4);
   /* 마진, 패딩 */
   --horizontal-space:25px;
 
